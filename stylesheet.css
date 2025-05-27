@@ -37,3 +37,37 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 50px; height:auto;
 }
+.vision{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image:url(./medias/img/ryan-stone-_4MkAq-Aycg-unsplash.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:cover ;
+    background-position: center;
+    border: 2px dashed #000000;
+}
+
+.visiontext{
+    padding: 10px;
+    margin: 15px;
+    pad: 10px   ;
+    text-align: left;
+    font-family:Arial, Helvetica,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    color: white;
+
+}
+.lien a{
+    font-size: 2em;
+    color: #ad1414;
+    text-align: left;
+    padding: 50px;
+    margin: 15px; ;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}

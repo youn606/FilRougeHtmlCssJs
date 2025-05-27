@@ -24,16 +24,16 @@ body{
 
 }
 .liens a{
-    background-color:#d42424;
+    background-color:#ad1414;
     text-decoration: none;
     padding: 10%;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.logo{
+.logo img{
     background-color: #ad1414;
     color: black;
-    padding: 3px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50px; height:auto;
 }

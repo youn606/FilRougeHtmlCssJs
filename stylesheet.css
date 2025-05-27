@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: red;
+}
+
+.navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap: 15px   ;
+    margin: 15px;
+
+}
+.liens{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px   ;
+    text-decoration: none;
+
+}
+.liens a{
+    background-color:#ad1414;
+    text-decoration: none;
+    padding: 10%;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo img{
+    background-color: #ad1414;
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50px; height:auto;
+}

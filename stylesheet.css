@@ -215,3 +215,174 @@ body{
     cursor: pointer;
 
 }
+@media (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column; /* Empiler les éléments verticalement */
+    align-items: center; /* Centrer les éléments */
+    gap: 10px; /* Réduire l'espace */
+  }
+
+  .liens {
+    flex-direction: column; /* Empiler les liens verticalement */
+    gap: 15px; /* Ajuster l'espace */
+    width: 90%; /* Occuper plus de largeur */
+  }
+
+  .liens a {
+    padding: 10px 15px; /* Ajuster le padding */
+    width: 100%; /* Boutons pleine largeur */
+    text-align: center; /* Centrer le texte */
+    border-radius: 5px; /* Arrondir les coins */
+  }
+
+  .logo img {
+    width: 60px; /* Agrandir légèrement le logo */
+    margin-bottom: 10px;
+  }
+
+  /* Vision Section */
+  .vision {
+    min-height: 400px; /* Réduire la hauteur pour mobile */
+  }
+
+  .visiontext {
+    font-size: 2em; /* Réduire la taille du texte */
+    text-align: center; /* Centrer le texte */
+    margin: 10px; /* Ajuster les marges */
+  }
+
+  .lien a {
+    font-size: 1.5em; /* Réduire la taille du lien */
+    padding: 20px; /* Ajuster le padding */
+    text-align: center; /* Centrer le texte */
+    display: block; /* Prendre toute la largeur */
+  }
+
+  /* CV Section */
+  .cv {
+    flex-direction: column; /* Empiler les éléments verticalement */
+    padding: 15px;
+    text-align: center;
+  }
+
+  .meimage img {
+    height: auto; /* Hauteur auto pour l'image principale */
+    max-height: 300px; /* Limiter la hauteur */
+    margin-bottom: 20px;
+  }
+
+  .me {
+    flex-direction: column; /* Empiler l'image et le texte */
+    align-items: center; /* Centrer le contenu */
+  }
+
+  .me p {
+    font-size: 120%; /* Ajuster la taille du texte */
+    padding: 0 15px; /* Ajuster le padding */
+    text-align: center;
+  }
+
+  .me img {
+    width: 150px; /* Réduire la taille de l'image de profil */
+    margin: 20px auto; /* Centrer */
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column; /* Empiler les éléments verticalement */
+    gap: 15px;
+  }
+
+  .textfoot {
+    font-size: 1em; /* Ajuster la taille du texte */
+    min-width: unset; /* Supprimer la contrainte de min-width */
+    width: 100%; /* Occuper toute la largeur */
+    margin-bottom: 10px;
+  }
+
+  .icons {
+    flex-direction: row; /* Garder les icônes en ligne */
+    justify-content: center; /* Centrer les icônes */
+    font-size: 1.8em; /* Ajuster la taille des icônes */
+    gap: 15px;
+    padding-right: 0; /* Supprimer le padding droit */
+    width: auto; /* Laisser la largeur s'adapter au contenu */
+  }
+
+  /* Projet (byike) Section */
+  .h3byike {
+    font-size: larger;
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .projet-1,
+  .byike {
+    flex-direction: column; /* Empiler l'image et le texte */
+    align-items: center; /* Centrer */
+  }
+
+  .imgbyike {
+    grid-template-columns: 1fr; /* Une seule colonne pour les images */
+    width: 90%; /* Occuper plus de largeur */
+    height: auto; /* Hauteur automatique */
+    margin-bottom: 20px;
+  }
+
+  .imgbyike img {
+    max-height: 200px; /* Limiter la hauteur des images */
+  }
+
+  .byiketxt p {
+    font-size: 120%; /* Ajuster la taille du texte */
+    padding: 15px;
+    text-align: center;
+  }
+
+  .soontxt {
+    font-size: 120%;
+    padding: 15px;
+  }
+
+  .btn {
+    height: 70px; /* Réduire la taille du bouton */
+    width: 70px;
+    right: 10px; /* Ajuster la position */
+    bottom: 10px;
+  }
+}
+
+/* --- */
+
+/* Optional: Styles pour les écrans très petits (inférieurs à 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px; /* Réduire la taille de police de base */
+  }
+
+  .visiontext {
+    font-size: 1.6em;
+  }
+
+  .lien a {
+    font-size: 1.2em;
+    padding: 15px;
+  }
+
+  .me p,
+  .byiketxt p,
+  .soontxt {
+    font-size: 110%; /* Ajuster la taille de texte */
+  }
+
+  .icons {
+    font-size: 1.5em; /* Réduire la taille des icônes */
+    gap: 10px;
+  }
+
+  .btn {
+    height: 60px;
+    width: 60px;
+  }
+}

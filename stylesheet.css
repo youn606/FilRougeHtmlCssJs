@@ -71,3 +71,41 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
+
+.cv {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family:Arial, Helvetica,serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 0.9em;
+    color: #ad1414;
+    background-color: black;
+}
+.meimage img {
+    color: black;
+    height: 800px;
+    background-color: black;
+}
+.me  {
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    background-color: black;
+
+}
+.me p {
+    font-size: 1em;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  180%;
+    flex-direction: column;
+}
+.me img {
+    width: 220px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 30px;
+}

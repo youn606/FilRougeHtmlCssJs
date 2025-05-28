@@ -109,3 +109,39 @@ body{
     object-fit: cover;
     margin: 30px;
 }
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+    padding: 20px;
+    align-items: center;
+}
+.textfoot{
+    font-size: 120%;
+    align-items: end;
+    justify-content: end;
+    width: auto;
+    min-width: 350px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: end;
+    font-size: 200%;
+    gap: 20px ;
+    text-decoration: none;
+    padding-right: 80px;
+    width: 100%;
+}
+
+.icons a {
+    color: #ad1414;
+    text-decoration: none;
+}
+.icons li {
+    list-style-type: none;
+}

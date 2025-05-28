@@ -1,0 +1,35 @@
+.cv {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-family:Arial, Helvetica,serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 0.9em;
+    color: #ad1414;
+    background-color: black;
+}
+.meimage img {
+    color: black;
+    height: 800px;
+    background-color: black;
+}
+.me  {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: black;
+}
+.me p {
+    font-size: 1em;
+    align-items: top;
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:  180%;
+    flex-direction: column;
+}
+.me img {
+    align-items: center;
+    background-color: black;
+    color: red;
+}
